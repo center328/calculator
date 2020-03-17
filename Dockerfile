@@ -1,3 +1,4 @@
 FROM maocorte/alpine-oraclejdk8
-ADD build/libs/calculator-0.0.1-SNAPSHOT.jar app.jar
+# test5-0.0 as jenkins project name
+ADD build/libs/test5-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java", "-jar", "app.jar"]
