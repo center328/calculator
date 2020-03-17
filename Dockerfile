@@ -1,3 +1,3 @@
 FROM maocorte/alpine-oraclejdk8
-COPY ./build/libs/TestGradle_Jenkinsfile-0.0.1-SNAPSHOT.jar app.jar
+COPY build/libs/calculator-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java", "-jar", "app.jar"]
